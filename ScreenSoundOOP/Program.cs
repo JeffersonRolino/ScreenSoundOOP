@@ -8,7 +8,8 @@ Musica musica2 = new Musica();
 musica2.nome = "Here comes the sun";
 musica2.artista = "The Beatles";
 musica2.duracao = 185;
-musica2.disponivel = true;
+musica2.disponivel = false;
 
-Console.WriteLine($"Nome: {musica1.nome}");
-Console.WriteLine($"Artista: {musica1.artista}");
+musica1.ExibirFichaTecnica();
+musica2.ExibirFichaTecnica();
+
