@@ -5,6 +5,16 @@
     public int duracao;
     private bool disponivel;
 
+    public void SetDisponivel(bool value)
+    {
+        disponivel = value;
+    }
+
+    public bool GetDisponivel()
+    {
+        return disponivel;
+    }
+
     public void ExibirFichaTecnica()
     {
         Console.WriteLine($"Nome: {nome}");
